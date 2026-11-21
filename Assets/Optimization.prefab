@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1638531620729054773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7293218956534168729}
+  - component: {fileID: 739120587149754481}
+  - component: {fileID: 6621566500371284407}
+  - component: {fileID: 4798419304284980740}
+  - component: {fileID: 6696549713634382383}
+  - component: {fileID: 7800815565087294279}
+  - component: {fileID: 2376567292592560070}
+  - component: {fileID: 1690859402226408952}
+  m_Layer: 0
+  m_Name: Optimization
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7293218956534168729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638531620729054773}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.768838, y: 2.2647407, z: -2.0438225}
+  m_LocalScale: {x: 0.7200776, y: 0.7200776, z: 0.7200776}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &739120587149754481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638531620729054773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5159d1d7e23f28845a2e837aa1c0eee7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6621566500371284407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638531620729054773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ccc1110b594d3d42be9d8668bf8bf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  antiAliasingLevel: 2
+  textureQualityLevel: 1
+  minRotationX: 70
+  maxRotationX: 90
+--- !u!114 &4798419304284980740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638531620729054773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 986a6a0899c686f4aa3b6835bb631b2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6696549713634382383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638531620729054773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 727d6209bb04d1f4d98fe48f4bdafb0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7800815565087294279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638531620729054773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cc36694e360bd44fbcbc2fedfb592e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetFrameRate: 120
+  targetCamera: {fileID: 0}
+  maxQualityLevel: 5
+  minQualityLevel: 0
+--- !u!114 &2376567292592560070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638531620729054773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea2fa6e4c54f43f4f9af23b722993229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoOptimizeOnStart: 1
+  disableRealtimeLights: 0
+  disableShadows: 0
+  disableVSync: 0
+  lowerPhysicsQuality: 1
+  disablePostProcessing: 0
+  disableReflections: 0
+  disableUnusedAudioListeners: 0
+  limitParticles: 1
+  targetFPS: 90
+--- !u!114 &1690859402226408952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638531620729054773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736f7b39ba569de408caf91d0bd0cb98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetFPS: 90
+  adaptiveOptimization: 1
+  lowFPSThreshold: 70
+  highFPSThreshold: 100
+  checkInterval: 3
